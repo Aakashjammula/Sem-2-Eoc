@@ -1,0 +1,41 @@
+class Main {
+    function void main() {
+        var Queue t;
+let t = Queue.new(5);
+do t.Enqueue(1);
+do t.Enqueue(2);
+do t.Enqueue(3);
+do t.Enqueue(4);
+do Output.printString("Queue elements are");
+do Output.println();
+do t.display();
+do t.Enqueue(5);
+do Output.println();
+do Output.printString("Queue elements after adding are");
+do Output.println();
+do t.display();
+do Output.println();
+do Output.printString("Queue elements after deletion are");
+do Output.println();
+do t.Dequeue();
+do t.display();
+do t.Enqueue(6);
+do Output.println();
+do Output.printString("Queue when elements are out of bounce");
+do Output.println();
+do t.Enqueue(7);
+do Output.println();
+do t.display();
+do t.Dequeue();
+do t.Dequeue();
+do t.Dequeue();
+do t.Dequeue();
+do t.Dequeue();
+do Output.println();
+do Output.printString("Queue when no element are added");
+do Output.println();
+do t.display();
+        return;
+    }
+
+}
